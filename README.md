@@ -1,1 +1,1 @@
-# here's my bug reports
+# here's examples of my bug reports
