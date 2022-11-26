@@ -193,8 +193,7 @@
 | Стабильность воспроизведения   |      Стабильно   |
 | Предусловия   |    Открыть страницу http://api-qa.skillbox.ru/practicesqli/index.php     |
 | Шаги воспроизведения   |  <p> 1. Нажать кнопку "Написать нам" <p> 2. В поле "email" ввести почтовый ящик с одинарной кавычкой в конце без пробелов, пример test@test.com' <p> 3. Остальные поля заполнить корректными данными  |
-| Фактический результат   |  Появляется ошибка о неправильном синтаксисе SQL
-"Error! You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''test@test.com''' at line 1"   |
+| Фактический результат   |  Появляется ошибка о неправильном синтаксисе SQL "Error! You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''test@test.com''' at line 1"   |
 | Ожидаемый результат   |   Появляется ошибка о некорректно заполненом поле "email"     |
 | Дополнительная информация   | - |
 
