@@ -212,7 +212,7 @@
 | Стабильность воспроизведения   |   Стабильно      |
 | Предусловия   |    Открыть Postman     |
 | Шаги воспроизведения   | <p> 1. Выполнить POST-запрос на регистрацию первого пользователя http://api-qa.skillbox.ru/api/loans/v1/register <p> 2. Выполнить POST-запрос на аутентификацию первого пользователя http://api-qa.skillbox.ru/api/loans/v1/login <p> 3. Скопировать полученный в ответе на POST-запрос на аутентификацию аутентификационный токен <p> 4. Выполнить POST-запрос на создание организации, используя токен http://api-qa.skillbox.ru/api/loans/v1/organizations <p> 5. Выполнить POST-запрос на регистрацию второго пользователя <p> 6. Выполнить POST-запрос на аутентификацию второго пользователя http://api-qa.skillbox.ru/api/loans/v1/login <p> 7. Выполнить GET-запрос на получение информации об организации с иcпользованием аутентификационного токена первого пользователя http://api-qa.skillbox.ru/api/loans/v1/organizations/:organizationid   |
-| Фактический результат   |    Злоумышленник имеет доступ к данным организации пользователя {"id":"4"","owner":{"username"":"bish",""email"":"bish@gon.wtf"},"orgname":"rotiform","address":"moscow","status":"none","custom":1}         |
+| Фактический результат   |    Злоумышленник имеет доступ к данным организации пользователя {"id":"4","owner":{"username":"bish","email":"bish@gon.wtf"},"orgname":"rotiform","address":"moscow","status":"none","custom":1}         |
 | Ожидаемый результат   |  При попытке получить доступ к данным пользователя злоумышленник видит ошибку "Not allowed to access requested organization or organization by this id does not exist yet"    |
 | Дополнительная информация   | - |
 
