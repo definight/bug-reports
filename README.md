@@ -1,4 +1,4 @@
-## here's examples of my bug reports
+## Here's examples of my bug reports
 
 
 <details>
