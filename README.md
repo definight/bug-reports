@@ -1,6 +1,5 @@
 ## Here's examples of my bug reports
 
-
 <details>
    <summary>1</summary>
 
